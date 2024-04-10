@@ -79,8 +79,6 @@ class SimpleDrivingEnv(gym.Env):
 
         reward = -dist_to_goal
         # if dist_to_goal <= 1.5:
-            
-
         self.prev_dist_to_goal = dist_to_goal
 
         # Done by running off boundaries
